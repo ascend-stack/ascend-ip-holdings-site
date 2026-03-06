@@ -62,6 +62,20 @@ p {
 .nav-right a:hover {
     color: #e2e8f0;
 }
+.page-title {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.page-title h1 {
+    margin-bottom: 6px;
+}
+
+.page-title p {
+    opacity: 0.65;
+    font-size: 18px;
+}
 
     .descriptor {
     font-size: 12px;
