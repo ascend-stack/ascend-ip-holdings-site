@@ -8,8 +8,10 @@ body {
 
 .container {
     max-width: 720px;
-    padding: 40px 24px;
+    margin: 120px auto 80px auto;
+    padding: 0 24px;
 }
+
 .container-doc {
     max-width: 760px;
     margin: 0 auto;
@@ -37,6 +39,9 @@ p {
     opacity: 0.85;
     margin-bottom: 24px;
 }
+
+/* Navigation */
+
 .nav {
     position: absolute;
     top: 24px;
@@ -57,34 +62,26 @@ p {
 .nav-right a {
     margin-left: 20px;
     color: #9aa6b2;
+    font-weight: 500;
 }
 
 .nav-right a:hover {
     color: #e2e8f0;
 }
-.page-title {
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 40px;
-}
 
-.page-title h1 {
-    margin-bottom: 6px;
-}
+/* Homepage descriptor */
 
-.page-title p {
-    opacity: 0.65;
-    font-size: 18px;
-}
-
-    .descriptor {
+.descriptor {
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #9aa6b2;
     margin-bottom: 10px;
 }
-    .technical {
+
+/* Technical disclosure text */
+
+.technical {
     font-size: 13px;
     opacity: 0.72;
     margin-top: 10px;
@@ -93,12 +90,14 @@ p {
     margin-right: auto;
     text-align: center;
 }
-    
+
 .nda {
     font-size: 14px;
     opacity: 0.65;
     margin-top: 32px;
 }
+
+/* Footer */
 
 .footer {
     font-size: 12px;
@@ -106,7 +105,10 @@ p {
     margin-top: 48px;
     line-height: 1.6;
 }
- a {
+
+/* Links */
+
+a {
     color: #94a3b8;
     text-decoration: none;
 }
@@ -114,4 +116,11 @@ p {
 a:hover {
     color: #e2e8f0;
     text-decoration: underline;
+}
+
+/* Bullet lists for legal pages */
+
+ul {
+    text-align: left;
+    margin-left: 20px;
 }
