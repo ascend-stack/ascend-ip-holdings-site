@@ -37,6 +37,31 @@ p {
     opacity: 0.85;
     margin-bottom: 24px;
 }
+.nav {
+    position: absolute;
+    top: 24px;
+    left: 40px;
+    right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.nav-left {
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.nav-right a {
+    margin-left: 20px;
+    color: #9aa6b2;
+}
+
+.nav-right a:hover {
+    color: #e2e8f0;
+}
 
     .descriptor {
     font-size: 12px;
